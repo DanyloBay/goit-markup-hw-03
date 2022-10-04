@@ -9,6 +9,12 @@
     --background-button: #F5F4FA;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
@@ -20,6 +26,14 @@ body {
 
 .list {
     list-style-type: none;
+}
+
+/* Container */
+
+.container {
+    width: 1170px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* Logo */
