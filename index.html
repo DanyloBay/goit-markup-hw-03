@@ -24,22 +24,23 @@
 
     <header class="header">
 
-        <div class="container">
+        <div class="container page__header">
             <nav class="header__nav">
 
                 <a href="/" class="logo link"><span class="article">Web</span>Studio</a>
 
                 <ul class="menu list">
-                    <li><a href="#" class="menu__nav menu__active link">Студія</a></li>
-                    <li><a href="./portfolio.html" class="menu__nav link">Портфоліо</a></li>
-                    <li><a href="#" class="menu__nav link">Контакти</a></li>
+                    <li class="item"><a href="#" class="menu__nav menu__active link">Студія</a></li>
+                    <li class="item"><a href="./portfolio.html" class="menu__nav link">Портфоліо</a></li>
+                    <li class="item"><a href="#" class="menu__nav link">Контакти</a></li>
                 </ul>
 
             </nav>
 
             <ul class="contacts list">
-                <li> <a href="mailto:info@devstudio.com" class="contacts__nav link">info@devstudio.com</a> </li>
-                <li> <a href="tel:+380961111111" class="contacts__nav link">+38 096 111 11 11</a> </li>
+                <li class="item"> <a href="mailto:info@devstudio.com" class="contacts__nav link">info@devstudio.com</a>
+                </li>
+                <li class="item"> <a href="tel:+380961111111" class="contacts__nav link">+38 096 111 11 11</a> </li>
             </ul>
         </div>
 
@@ -107,34 +108,42 @@
 
         </section>
 
-        <section class="section">
+        <section class="section section__bgcolor">
 
             <div class="container">
-                <h2 class="section__tittle">Наша команда</h2>
+                <h2 class="section__tittle team__tittle">Наша команда</h2>
 
                 <ul class="team list">
                     <li class="team__person">
                         <img src="./images/worker1.jpg" class="person__img" width="270" alt="Працівник чоловік Ігор">
-                        <h3 class="person__name">Ігор Дем'яненко</h3>
-                        <p class="text">Product Designer</p>
+                        <div class="person__item">
+                            <h3 class="person__name">Ігор Дем'яненко</h3>
+                            <p class="text">Product Designer</p>
+                        </div>
                     </li>
 
                     <li class="team__person">
                         <img src="./images/worker2.jpg" class="person__img" width="270" alt="Працівник жінка Ольга">
-                        <h3 class="person__name">Ольга Рєпіна</h3>
-                        <p class="text">Frontend Developer</p>
+                        <div class="person__item">
+                            <h3 class="person__name">Ольга Рєпіна</h3>
+                            <p class="text">Frontend Developer</p>
+                        </div>
                     </li>
 
                     <li class="team__person">
                         <img src="./images/worker3.jpg" class="person__img" width="270" alt="Працівник чоловік Микола">
-                        <h3 class="person__name"> Микола Тарасов </h3>
-                        <p class="text">Marketing</p>
+                        <div class="person__item">
+                            <h3 class="person__name"> Микола Тарасов </h3>
+                            <p class="text">Marketing</p>
+                        </div>
                     </li>
 
                     <li class="team__person">
                         <img src="./images/worker4.jpg" class="person__img" width="270" alt="Працівник чоловік Михайло">
-                        <h3 class="person__name">Михайло Єрмаково</h3>
-                        <p class="text">UI Designer</p>
+                        <div class="person__item">
+                            <h3 class="person__name">Михайло Єрмаково</h3>
+                            <p class="text inform">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -146,16 +155,17 @@
     <footer class="footer">
 
         <div class="container">
-            <a href="/" class="logo link"><span class="footer__art">Web</span><span
+            <a href="/" class="logo logo__item link"><span class="footer__art">Web</span><span
                     class="footer__secart">Studio</span></a>
 
             <address class="address">
                 <ul class="address__book list">
-                    <li> <a href="" class="address__nav link"> м. Київ, пр-т Лесі Українки, 26 </a> </li>
+                    <li class="item"> <a href="" class="address__nav link"> м. Київ, пр-т Лесі Українки, 26 </a> </li>
 
-                    <li> <a href="mailto:info@devstudio.com" class="address__link link">info@devstudio.com</a> </li>
+                    <li class="item"> <a href="mailto:info@devstudio.com"
+                            class="address__link link">info@devstudio.com</a> </li>
 
-                    <li> <a href="tel:+380961111111" class="address__tel link">+38 096 111 11 11</a> </li>
+                    <li class="item"> <a href="tel:+380961111111" class="address__tel link">+38 096 111 11 11</a> </li>
                 </ul>
             </address>
         </div>
