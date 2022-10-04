@@ -32,8 +32,11 @@ body {
 
 .container {
     width: 1170px;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    outline: 1px solid orangered;
 }
 
 /* Logo */
@@ -55,6 +58,8 @@ body {
 /* Text */
 
 .text {
+    margin: 0;
+
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -102,6 +107,7 @@ body {
 .header {}
 
 .header__nav {
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -114,6 +120,8 @@ body {
 
 .menu {
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
 .menu__nav {
@@ -133,6 +141,8 @@ body {
 
 .contacts {
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
 .contacts__nav {
@@ -155,6 +165,8 @@ body {
 }
 
 .main__tittle {
+    margin: 0;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -171,6 +183,8 @@ body {
 .section {}
 
 .section__tittle {
+    margin: 0;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.6;
@@ -186,11 +200,16 @@ body {
 
 /* Features */
 
-.features {}
+.features {
+    margin: 0;
+    padding-left: 0;
+}
 
 .features__story {}
 
 .features__tittle {
+    margin: 0;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -202,19 +221,27 @@ body {
 
 /* Projects */
 
-.projects {}
+.projects {
+    margin: 0;
+    padding-left: 0;
+}
 
 .projects__example {}
 
 /* Team */
 
-.team {}
+.team {
+    margin: 0;
+    padding-left: 0;
+}
 
 .team__person {}
 
 .person__img {}
 
 .person__name {
+    margin: 0;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -255,6 +282,9 @@ body {
 }
 
 .address__book {
+    margin: 0;
+    padding-left: 0;
+
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
