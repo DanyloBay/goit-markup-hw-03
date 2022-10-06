@@ -380,12 +380,17 @@ img {
     margin-bottom: 30px;
 }
 
-.portfolio__item {}
+.portfolio__item {
+    /* padding-left: 24px;
+    padding-right: 24px; */
+    margin-left: 24px;
+    margin-right: 24px;
+}
 
 .portfolio__tittle {
 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
